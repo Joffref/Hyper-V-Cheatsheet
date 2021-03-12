@@ -17,4 +17,5 @@ List all your VM
 Get-VM
 ```
 Output :
+
 [![Output of Get-VM command](https://docs.microsoft.com/fr-fr/virtualization/hyper-v-on-windows/quick-start/media/get_vm.png)](https://docs.microsoft.com/fr-fr/virtualization/hyper-v-on-windows/quick-start/try-hyper-v-powershell#return-a-list-of-virtual-machines)] 
