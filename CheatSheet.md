@@ -29,3 +29,15 @@ Constraint list of your VM using [Where](https://docs.microsoft.com/fr-fr/previo
 >```powershell
 > Get-VM | where { $_.State -eq 'Running' } 
 >```
+
+Start a VM :
+```powershell
+Start-VM -Name <virtual machine name>
+```
+
+>It is possible to concatenate those commands
+>
+>For exemple, start all the VMs powered off :
+>>```powershell
+>>Get-VM | where {$_.State -eq 'Off'} | Start-VM
+>> ```
